@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b7bc0e0b9d21049b43ae44cb603d99, type: 3}
+  m_Name: Gyalis
+  m_EditorClassIdentifier: 
+  typeOne: Crystal
+  typeTwo: Melee
+  baseHp: 86
+  baseSta: 44
+  baseSpd: 100
+  baseAtk: 85
+  baseSpatk: 23
+  baseDef: 61
+  baseSpdef: 61
+  temName: Gyalis
+  traitOne: Mirroring
+  traitTwo: Resistant
