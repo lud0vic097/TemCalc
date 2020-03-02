@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +10,10 @@ public class BattleCalc : MonoBehaviour
 
     // Calls are .type , .power , .isSpecial (boolean flag that controls an if in damage calc) and .isHyperKineticStrike for spd spatk split calculation.
 
-    private int dmgAvsC, dmgAvsD, dmgBvsC, dmgBvsD, dmgCvsA, dmgCvsB, dmgDvsA, dmgDvsB;
+    private int dmgAvsC, dmgAvsD, dmgBvsC, dmgBvsD, dmgCvsA, dmgCvsB, dmgDvsA, dmgDvsB; //not sure what to call them, basically all the combinations of where attacks can land
 
+    public bool isBurned, isPoisoned, cameraderieOn, toxicAffinity;//flags for damage modifiers, add more if needed
+    public int settlingTurns;
 
     public void TestDamageAvsC()
     {
